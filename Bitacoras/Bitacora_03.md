@@ -21,6 +21,7 @@ Profundizar en la comprensión de nuestro desafío mediante herramientas visuale
 
 ## Aprendizaje de la sesión
 Comprendimos que estructurar visualmente un problema revela detalles que habíamos pasado por alto inicialmente. Además, la práctica oral nos demostró que manejar el pánico escénico y planificar el discurso son habilidades tan importantes como el dominio técnico del tema.
+ <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/fae3b3f5-0d60-4341-9cc4-29f4d23df3a4" />
 
 ---
 [Volver al índice de sesiones](README.md) · [Inicio del proyecto](../README.md)
