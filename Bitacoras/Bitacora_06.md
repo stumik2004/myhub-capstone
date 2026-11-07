@@ -1,8 +1,8 @@
 # S06 | De la idea a una solución: Estructuración de MyHub
 
 **Proyecto:** MyHub – Hub Providencia  
-**Semana:** 06  
-**Equipo:** Agatha Meza, Deyanira Muñoz, Kevin Maicol Stuardo Miranda y Ruth Gómez.
+**Semana:** 06  22-10-2026 
+**Equipo:** Agatha Meza, Deyanira Muñoz, Kevin Maicol Stuardo Miranda y Ruth Gomez.
 
 ---
 
