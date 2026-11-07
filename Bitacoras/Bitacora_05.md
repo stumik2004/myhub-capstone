@@ -1,6 +1,6 @@
 # S05 - Análisis de Soluciones Existentes y Propuestas de Mejora
 
-**Semana N.º 5**
+**Semana N.º 5** 22-09-2026
 
 **Proyecto:** MyHub – Hub Providencia
 
@@ -90,6 +90,12 @@ Esta actividad nos permitió comprender la importancia de investigar soluciones 
 - Revisar qué recursos serían necesarios para desarrollar un prototipo.
 - Organizar las ideas para la presentación de nuestra propuesta.
 - Considerar las observaciones de la profesora para seguir mejorando el proyecto.
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/2d9f2909-5054-4d70-b3dd-3cda728c301b" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/f661ca8e-5583-4eb7-9b86-06ab7a4b0a0e" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/a3a68d0c-9c13-4dce-90c8-1c8adfe1a5b4" />
 
 ---
 
