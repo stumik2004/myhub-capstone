@@ -1,163 +1,124 @@
-# S06 - Diseño y Estructuración de la Propuesta MyHub
+# S06 | De la idea a una solución: Estructuración de MyHub
 
-**Semana:** 6  
 **Proyecto:** MyHub – Hub Providencia  
-**Etapa:** Desarrollo de la solución y diseño conceptual
-
-**Integrantes:**
-- Agatha Meza
-- Deyanira Muñoz
-- Kevin Maicol Stuardo Miranda
-- Ruth Gómez
+**Semana:** 06  
+**Equipo:** Agatha Meza, Deyanira Muñoz, Kevin Maicol Stuardo Miranda y Ruth Gómez.
 
 ---
 
-## Objetivo de la sesión
+## ¿En qué trabajamos esta semana?
 
-Definir con mayor claridad cómo funcionaría nuestra propuesta MyHub, identificando sus principales herramientas, los recursos necesarios y la manera en que se conectarían para mejorar el registro de visitantes y la organización de información en el Hub Providencia.
+Durante esta sesión nos enfocamos en darle una forma más concreta a nuestra propuesta MyHub. Después de identificar las principales dificultades del Hub Providencia y revisar algunas soluciones existentes, necesitábamos definir cómo funcionaría nuestro sistema y qué herramientas serían necesarias para desarrollarlo.
 
-## 1. Desarrollo de nuestra propuesta
+Hasta este momento teníamos clara la problemática, pero todavía debíamos organizar mejor nuestra idea para transformarla en una solución que pudiera implementarse.
 
-A partir de las problemáticas identificadas durante la visita al Hub y el análisis de soluciones existentes, continuamos trabajando en nuestra propuesta MyHub.
+Nuestro principal objetivo fue establecer una conexión entre las necesidades del Hub y las funcionalidades que ofrecería MyHub.
 
-La idea principal consiste en desarrollar un sistema digital que permita registrar los ingresos y salidas de los visitantes, centralizando la información para facilitar su consulta por parte del personal administrativo.
+## De los problemas a las funcionalidades
 
-Para organizar mejor la solución, consideramos tres componentes principales que trabajarían de manera conjunta.
+Uno de los aspectos que más consideramos fue la forma en que actualmente se registra a los visitantes.
 
-### 1.1. Plataforma web para usuarios
+El uso de registros físicos provoca que las personas deban ingresar sus datos repetidamente. Además, cuando no se registra correctamente la salida, resulta difícil conocer cuánto tiempo permanecen dentro de las instalaciones.
 
-La plataforma web sería el principal medio de acceso a MyHub y estaría diseñada para funcionar tanto en computadores como en celulares.
+A partir de esta situación, planteamos que MyHub debía facilitar el proceso tanto para los visitantes como para el personal administrativo.
 
-**Funcionalidades propuestas:**
+En lugar de desarrollar herramientas independientes, pensamos en una plataforma donde la información estuviera conectada y pudiera consultarse desde un mismo sistema.
 
-- Permitir que los visitantes se registren una sola vez.
-- Generar un código QR personal para identificar a cada usuario.
-- Facilitar el acceso a la credencial digital en futuras visitas.
-- Mantener un proceso sencillo para evitar registros repetitivos.
+### ¿Cómo imaginamos el funcionamiento?
 
-Con esta herramienta buscamos que los visitantes puedan identificarse de manera rápida, sin necesidad de completar formularios físicos cada vez que ingresan al edificio.
+Organizamos nuestra propuesta en tres elementos principales:
 
-### 1.2. Tótem digital de registro
+**1. Acceso digital para visitantes**
 
-Como segundo componente, proponemos incorporar un punto de autoservicio ubicado en la recepción del Hub.
+Consideramos desarrollar una plataforma web que pudiera utilizarse desde computadores y teléfonos.
 
-Este dispositivo permitiría registrar las visitas mediante la lectura de un código QR.
+La idea es que cada persona se registre una sola vez y obtenga una credencial digital con un código QR personal. De esta manera, en sus próximas visitas podría identificarse sin necesidad de volver a completar sus datos.
 
-**Funcionamiento esperado:**
+**2. Punto de registro en recepción**
 
-1. El visitante llega al Hub y presenta su código QR.
-2. El sistema reconoce su registro.
-3. La persona confirma el espacio que utilizará.
-4. Se almacena automáticamente su ingreso.
-5. Al finalizar su visita, registra su salida.
+También propusimos incorporar un dispositivo de autoservicio, como una tablet o computador con cámara, que permita identificar a los visitantes mediante su código QR.
 
-Para desarrollar una primera versión, consideramos utilizar una tablet o un computador con cámara y conexión a internet, aprovechando los recursos disponibles antes de invertir en equipamiento adicional.
+Este punto de registro serviría para confirmar tanto el ingreso como la salida de una persona.
 
-También contemplamos una alternativa de registro asistido para quienes tengan dificultades con el sistema.
+Además, consideramos importante mantener una alternativa de atención asistida para quienes necesiten ayuda.
 
-### 1.3. Panel de administración
+**3. Herramienta de administración**
 
-El tercer componente corresponde a una herramienta destinada al personal autorizado del Hub.
+Por último, pensamos en un panel destinado al personal del Hub, desde donde se puedan consultar los registros de visitas y obtener información sobre el uso de las instalaciones.
 
-Su propósito sería organizar los registros y transformarlos en información útil para comprender mejor cómo se utilizan las instalaciones.
+Entre los datos de interés se encuentran la cantidad de visitantes, la frecuencia de asistencia, los horarios de mayor movimiento y el tiempo de permanencia.
 
-**Información que podría visualizarse:**
+## Un sistema conectado
 
-- Cantidad de visitantes registrados.
-- Frecuencia de visitas.
-- Horarios con mayor movimiento.
-- Espacios más utilizados.
-- Registros de ingresos y salidas.
+Después de definir estos elementos, analizamos cómo se relacionarían entre sí.
 
-Esto permitiría disminuir la dependencia de registros físicos y facilitar la consulta de información desde un mismo lugar.
+La propuesta consiste en que la plataforma web, el dispositivo de recepción y el panel administrativo compartan una misma base de datos.
+
+El recorrido de un visitante sería el siguiente:
+
+**Registro inicial → Credencial QR → Identificación en recepción → Registro de ingreso y salida → Consulta administrativa.**
+
+Con este funcionamiento buscamos evitar la duplicación de información y facilitar el seguimiento de las visitas.
+
+Por ahora, nuestra prioridad es establecer correctamente el flujo del sistema antes de profundizar en las tecnologías específicas que utilizaremos.
 
 ---
 
-## 2. Conexión entre los componentes
+## ¿Qué necesitamos para llevarlo a la práctica?
 
-Para que MyHub funcione correctamente, la plataforma web, el tótem y el panel administrativo deberán estar conectados a una misma base de datos.
+Durante la sesión también identificamos algunos recursos básicos que permitirían construir una primera versión.
 
-El funcionamiento general que proponemos es el siguiente:
+| Área | Recursos considerados |
+|---|---|
+| Equipamiento | Computador o tablet con cámara y acceso a internet |
+| Desarrollo | Plataforma web y herramientas para generar y leer códigos QR |
+| Información | Base de datos centralizada |
+| Administración | Interfaz para consultar registros e indicadores |
+| Validación | Participación del equipo, personal del Hub y usuarios voluntarios |
 
-**Registro del usuario → Generación del QR → Lectura en el tótem → Almacenamiento de la visita → Visualización en el panel administrativo.**
+Nuestra intención es aprovechar los recursos disponibles y evitar gastos innecesarios durante las primeras etapas.
 
-De esta manera, la información registrada podría mantenerse organizada y disponible para el personal autorizado.
+## Aspectos que debemos resolver
 
-En esta etapa nos enfocamos en definir el funcionamiento general del sistema, dejando la elección de tecnologías específicas para el desarrollo posterior del prototipo.
+Aunque logramos avanzar en el diseño general, también surgieron preguntas importantes que tendremos que abordar más adelante.
 
----
+**Experiencia de usuario:** ¿Cómo podemos conseguir que el registro sea rápido y fácil de entender?
 
-## 3. Recursos necesarios para el prototipo
+**Conexión a internet:** ¿Qué alternativa podría utilizarse si el sistema pierde conectividad?
 
-También identificamos los principales recursos que podrían necesitarse para realizar una primera prueba de MyHub.
+**Seguridad:** ¿Cómo aseguraremos que los datos personales estén protegidos y solo puedan ser consultados por personas autorizadas?
 
-**Equipamiento:**
-- Tablet o computador con cámara.
-- Conexión a internet.
-- Espacio habilitado para el registro de visitantes.
+**Registro de salida:** ¿Cómo motivaremos a los visitantes a confirmar su salida para evitar información incompleta?
 
-**Herramientas digitales:**
-- Plataforma web adaptable a distintos dispositivos.
-- Sistema de generación y lectura de códigos QR.
-- Base de datos para almacenar los registros.
-- Panel de consulta para la administración.
+**Viabilidad:** ¿Qué recursos son realmente necesarios para probar la propuesta sin generar costos elevados?
 
-**Recursos humanos:**
-- Integrantes del equipo encargados del desarrollo y las pruebas.
-- Personal del Hub que pueda entregar retroalimentación.
-- Usuarios que participen voluntariamente en la validación del prototipo.
-
-La intención es comenzar con una solución sencilla que pueda probarse y mejorarse antes de considerar una implementación más amplia.
+Estas preguntas nos ayudaron a reconocer que todavía existen decisiones técnicas y operativas pendientes.
 
 ---
 
-## 4. Posibles dificultades y aspectos por considerar
+## Nuestra idea para comenzar
 
-Durante la definición conceptual identificamos algunos aspectos que sería importante resolver antes de implementar MyHub.
+Como primera aproximación, consideramos que sería conveniente implementar MyHub de manera gradual.
 
-**Facilidad de uso:** El sistema debe ser comprensible para personas con distintos niveles de experiencia tecnológica.
+En vez de intentar utilizarlo inmediatamente en todas las instalaciones, podríamos comenzar con una prueba piloto en un espacio definido junto con la administración del Hub Providencia.
 
-**Conectividad:** Es necesario considerar qué ocurriría si se interrumpe la conexión a internet durante el registro.
+Esto permitiría observar cómo funciona el registro digital, detectar dificultades y recopilar comentarios para realizar mejoras.
 
-**Protección de información:** Los datos personales de los visitantes deberán manejarse de manera segura y estar disponibles únicamente para el personal autorizado.
+En esta etapa decidimos concentrarnos principalmente en el registro y la caracterización de visitantes. La gestión de reservas podría desarrollarse como una funcionalidad complementaria en una fase posterior.
 
-**Registro de salidas:** Se debe buscar una forma sencilla de incentivar que los usuarios registren su salida, ya que este es uno de los problemas identificados durante el diagnóstico.
+## Lo que nos dejó esta sesión
 
-**Costos:** Se priorizará el uso de equipos existentes y herramientas que permitan desarrollar una primera versión sin requerir una inversión elevada.
+Esta semana nos permitió pasar de una idea general a una propuesta con componentes y funciones más definidos.
 
----
+Comprendimos que diseñar una solución no consiste únicamente en pensar qué queremos desarrollar, sino también en analizar cómo se utilizará, qué recursos necesita y cuáles podrían ser sus dificultades.
 
-## 5. Propuesta de implementación gradual
+Como equipo, sentimos que logramos ordenar mejor nuestras ideas y establecer una base para continuar trabajando en MyHub.
 
-En lugar de implementar el sistema en todo el edificio desde el comienzo, planteamos iniciar con una prueba piloto en un área seleccionada junto con la administración del Hub.
+## Para la próxima clase
 
-Esta prueba permitiría observar el funcionamiento del registro digital, identificar errores y recopilar opiniones de los usuarios y del personal.
+Nos queda avanzar en la selección de funcionalidades prioritarias, explorar herramientas para el desarrollo web y preparar un esquema visual que explique cómo interactúan los componentes del sistema.
 
-Posteriormente, los resultados servirían para realizar mejoras y evaluar si la solución puede ampliarse a otros espacios.
-
-Por el momento, nuestra prioridad sería el registro y la caracterización de visitantes. Otras funcionalidades, como la gestión de reservas, podrían incorporarse en etapas futuras.
-
----
-
-## Aprendizaje de la sesión
-
-Esta etapa nos permitió comprender que una propuesta de innovación necesita algo más que una idea inicial. También es importante definir cómo funcionará, qué elementos la componen y cuáles son los recursos necesarios para llevarla a la práctica.
-
-Además, reconocimos que una solución debe ser viable y adaptarse a las condiciones reales del lugar donde se pretende implementar.
-
-## Reflexión del equipo
-
-Como equipo, logramos dar mayor estructura a nuestra propuesta MyHub, pasando de la identificación de un problema a plantear cómo podría funcionar una posible solución.
-
-Este avance nos permitió visualizar mejor los componentes del sistema y reconocer los aspectos que todavía necesitamos investigar y desarrollar.
-
-## Próximos pasos
-
-- Definir las funcionalidades prioritarias del prototipo.
-- Evaluar herramientas para desarrollar la plataforma web.
-- Elaborar un esquema visual del funcionamiento de MyHub.
-- Revisar los recursos técnicos disponibles en el Hub.
-- Preparar la propuesta para recibir retroalimentación de la profesora.
+También esperamos revisar los recursos disponibles y presentar nuestra propuesta para recibir observaciones que nos ayuden a mejorarla.
 
 ---
 
