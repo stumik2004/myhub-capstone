@@ -25,4 +25,7 @@ Presentar el problema de nuestro desafío ante la clase y el equipo docente, eva
 Confirmamos que la preparación de material visual (como nuestras diapositivas) es un excelente apoyo, pero debemos trabajar más en la resiliencia y la capacidad de improvisación bajo presión. Recibir feedback en tiempo real nos enseñó que la flexibilidad es fundamental a la hora de comunicar una idea.
 
 ---
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/872eaeb4-45dd-404e-b666-f6cce61fadd5" />
+
 [Volver al índice de sesiones](README.md) · [Inicio del proyecto](../README.md)
