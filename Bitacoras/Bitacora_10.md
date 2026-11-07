@@ -1,7 +1,7 @@
 # S10 - Presentación de Avances y Consolidación del Proyecto MyHub
 
 **Semana:** 10  
-**Fecha:** 27 de octubre de 2026 (por confirmar)  
+**Fecha:** 27-10-2026  
 **Proyecto:** MyHub – Hub Providencia  
 **Etapa:** Presentación del proyecto y planificación del prototipo
 
@@ -112,5 +112,12 @@ Además, la preparación de la presentación nos ayudó a reconocer los avances 
 - Organizar los avances correspondientes a la siguiente etapa del proyecto Capstone.
 
 ---
+<img width="413" height="328" alt="image" src="https://github.com/user-attachments/assets/2a6749d7-0862-42c7-845f-31b6b6279baa" />
+
+
+<img width="360" height="324" alt="image" src="https://github.com/user-attachments/assets/4025212f-63b5-45c5-a286-198e3e19e1a5" />
+
+<img width="212" height="304" alt="image" src="https://github.com/user-attachments/assets/44e9dbea-9e94-4aed-99da-ee5bca0c877a" />
+
 
 [Volver al índice de sesiones](README.md) · [Inicio del proyecto](../README.md)
