@@ -1,7 +1,7 @@
 # S09 - Desarrollo Técnico y Planificación del Prototipo MyHub
 
 **Semana:** 9  
-**Fecha:** 20 de octubre de 2026 (por confirmar)  
+**Fecha:** 20 de octubre de 2026   
 **Proyecto:** MyHub – Hub Providencia  
 **Equipo:** Agatha Meza, Deyanira Muñoz, Kevin Maicol Stuardo Miranda y Ruth Gómez
 
