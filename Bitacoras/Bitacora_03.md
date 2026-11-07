@@ -6,8 +6,7 @@
 * Kevin Maicol Stuardo Miranda
 * Ruth Gómez
 
-**Responsable del registro:** Por confirmar (el archivo original indica Felipe Gutiérrez; verificar con el equipo).
-
+**Responsable del registro:**  Felipe Gutiérrez
 ---
 
 ## Objetivo de la sesión
