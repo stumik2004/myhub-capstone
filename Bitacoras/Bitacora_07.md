@@ -2,7 +2,7 @@
 
 **Actividad:** Visita al Hub Providencia y levantamiento de información
 
-**Fecha:** Por confirmar
+**Fecha:** 06-10-2026
 
 **Objetivo:** Conocer el funcionamiento del Hub Providencia, identificar las principales dificultades en la gestión de espacios y el registro de visitantes, y recopilar información que permita desarrollar una propuesta de mejora.
 
